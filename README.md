@@ -1,4 +1,4 @@
-# Cross Universe Online i18n
+# Cross Universe Online Translations
 
 This repo has the translation files (English & Japanese) for my site, [Cross Universe Online](https://crossuniverse.psychpsyo.com/).  
 The English file (en.json) is in this case the original and will always be complete.  
