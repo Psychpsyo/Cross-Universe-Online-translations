@@ -6,7 +6,7 @@ The Japanese file (ja.json) is still missing some things. (The keys are in there
 
 ## Contributing
 
-To contribute, just fork the repo, make your changes and submit a pull request.  
+To contribute, just fork the repo, make your changes and open a pull request.  
   
 Note:  
 Some lines include things like `{#COUNT}`. Those will be replaced with actual numbers by the game and need to be exactly the same in the translated version. (Though you can move them to different points in the sentence.)
