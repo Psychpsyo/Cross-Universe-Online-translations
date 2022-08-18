@@ -10,3 +10,7 @@ To contribute, just fork the repo, make your changes and open a pull request.
   
 Note:  
 Some lines include things like `{#COUNT}`. Those will be replaced with actual numbers by the game and need to be exactly the same in the translated version. (Though you can move them to different points in the sentence.)
+
+## Languages other than English and Japanese
+
+I'm open to adding more languages than just English and Japanese but keep in mind that the game and rules currently only exist in those two and I have no control over additional languages for that.
