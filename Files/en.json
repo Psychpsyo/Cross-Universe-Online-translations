@@ -87,6 +87,7 @@
 		"language": "Language:",
 		"languageIncomplete": "This language might be incomplete. Click here to help out.",
 		"partnerChoice": "Always give Partner Choice",
+		"autoClosePreview": "Close Card Preview When Clicking off of It",
 		
 		"profile": "Profile",
 		"username": "Your Username:",
