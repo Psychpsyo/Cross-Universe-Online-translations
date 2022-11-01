@@ -4,6 +4,7 @@
 	"waitingForOpponent": "Waiting for Opponent...",
 	"cancelWaiting": "Cancel",
 	"rulesButton": "Game Rules",
+	"rulesLink": "/rules.html",
 	"unofficialNotice": "This site is an unofficial, fan-made implementation of Cross Universe. Visit the official page at <a href=\"https://www.crossuniverse.jp\">crossuniverse.jp</a>!",
 	
 	"gamemode": "Gamemode:",
@@ -12,7 +13,8 @@
 		"draft": "Draft"
 	},
 	
-	"language": "Language:",
+	"settingsButton": "Settings",
+	"deckCreatorButton": "Open Deck Creator",
 	
 	"infoYou": "You",
 	"infoOpponent": "Opponent",
@@ -78,11 +80,40 @@
 	"draftFinished": "Draft finished. You can start the game now.",
 	"draftStartGame": "Start Game",
 	
-	"settingsUsername": "Your Username:",
-	"settingsFieldLabels": "Show Field Labels",
-	"settingsPartnerChoice": "Always give Partner Choice",
-	"settingsCardBackLink": "Custom Card Back Link:",
-	"settingsDisableCardBack": "Disable Opponent Card Backs",
+	"settings": {
+		"title": "Settings",
+		
+		"general": "General",
+		"language": "Language:",
+		"languageIncomplete": "This language might be incomplete. Click here to help out.",
+		"partnerChoice": "Always give Partner Choice",
+		
+		"profile": "Profile",
+		"username": "Your Username:",
+		"cardBackLink": "Custom Card Back Link:",
+		
+		"preferences": "Preferences",
+		"fieldLabels": "Show Field Labels",
+		"disableCardBacks": "Disable Opponent Card Backs",
+		
+		"hotkeys": "Hotkeys",
+		"pressKey": "Press Key",
+		"keyCtrl": "Ctrl",
+		"keyShift": "Shift",
+		"keyAlt": "Alt",
+		"showYourDiscardPile": "Show Your Discard Pile:",
+		"showOpponentDiscardPile": "Show Opponent Discard Pile:",
+		"showYourExileZone": "Show Your Exile Zone:",
+		"showOpponentExileZone": "Show Opponent Exile Zone:",
+		"searchYourDeck": "Search Your Deck:",
+		"tokenSelector": "Token Selector:",
+		"showField": "Show Field:",
+		"destroyGrabbedToken": "Destroy Grabbed Token:",
+		"writeChatMessage": "Write Chat Message:",
+		"drawCard": "Draw Card:",
+		"revealPartner": "Reveal Partner:",
+		"previewHandCard": "Preview Hand Cards:"
+	},
 	
 	"searchUnits": "Units",
 	"searchTokens": "Tokens",

@@ -4,6 +4,7 @@
 	"waitingForOpponent": "承認待ち",
 	"cancelWaiting": "キャンセル",
 	"rulesButton": "ゲームのルール",
+	"rulesLink": "https://crossuniverse.jp/%e2%97%86%e2%97%86%e2%97%86%e3%82%af%e3%83%ad%e3%82%b9%e3%83%a6%e3%83%8b%e3%83%90%e3%83%bc%e3%82%b9%e3%81%a8%e3%81%af%e2%97%86%e2%97%86%e2%97%86/",
 	"unofficialNotice": "クロスユニバースのファンサイトです。公式はこちらへ。（<a href=\"https://www.crossuniverse.jp\">https://crossuniverse.jp/</a>）",
 	
 	"gamemode": "ゲームモード：",
@@ -12,7 +13,8 @@
 		"draft": "ドラフト"
 	},
 	
-	"language": "言語：",
+	"settingsButton": "",
+	"deckCreatorButton": "",
 	
 	"infoYou": "自分",
 	"infoOpponent": "相手",
@@ -78,11 +80,40 @@
 	"draftFinished": "",
 	"draftStartGame": "",
 	
-	"settingsUsername": "",
-	"settingsFieldLabels": "",
-	"settingsPartnerChoice": "",
-	"settingsCardBackLink": "",
-	"settingsDisableCardBack": "",
+	"settings": {
+		"title": "",
+		
+		"general": "",
+		"language": "言語：",
+		"languageIncomplete": "",
+		"partnerChoice": "",
+		
+		"profile": "",
+		"username": "",
+		"cardBackLink": "",
+		
+		"preferences": "",
+		"fieldLabels": "",
+		"disableCardBacks": "",
+		
+		"hotkeys": "",
+		"pressKey": "",
+		"keyCtrl": "",
+		"keyShift": "",
+		"keyAlt": "",
+		"showYourDiscardPile": "",
+		"showOpponentDiscardPile": "",
+		"showYourExileZone": "",
+		"showOpponentExileZone": "",
+		"searchYourDeck": "",
+		"tokenSelector": "",
+		"showField": "",
+		"destroyGrabbedToken": "",
+		"writeChatMessage": "",
+		"drawCard": "",
+		"revealPartner": "",
+		"previewHandCard": ""
+	},
 	
 	"searchUnits": "ユニット",
 	"searchTokens": "トークン",
