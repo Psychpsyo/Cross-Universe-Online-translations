@@ -33,8 +33,8 @@
 	"selectStartingPlayer": "Select Starting Player",
 	"youStart": "You go first.",
 	"opponentStarts": "Your opponent goes first.",
-	"youShuffled": "Deck shuffled.",
-	"opponentShuffled": "Your opponent shuffled their deck.",
+	"yourDeckShuffled": "Deck shuffled.",
+	"opponentDeckShuffled": "Your opponent's deck was shuffled.",
 	
 	"chat": "Chat",
 	"chatEnterMessage": "Enter Message...",
