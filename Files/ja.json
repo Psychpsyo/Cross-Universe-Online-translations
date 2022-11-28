@@ -73,12 +73,17 @@
 	"fatesDiceYou": "自分の「運命のサイコロ」：{#RESULT}",
 	"fatesDiceOpponent": "相手の「運命のサイコロ」：{#RESULT}",
 	
-	"draftYourTurn": "",
-	"draftOpponentsTurn": "",
-	"draftPackNumber": "",
-	"draftAmountTaken": "",
-	"draftFinished": "",
-	"draftStartGame": "",
+	"draft": {
+		"yourTurn": "",
+		"opponentsTurn": "",
+		"packNumber": "",
+		"amountTaken": "",
+		"finished": "",
+		"startGame": "",
+		"deckName": "",
+		"yourDeck": "自分",
+		"opponentDeck": "相手"
+	},
 	
 	"settings": {
 		"title": "",

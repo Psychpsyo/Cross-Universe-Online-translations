@@ -73,12 +73,17 @@
 	"fatesDiceYou": "You rolled Fate's Dice. It showed a {#RESULT}.",
 	"fatesDiceOpponent": "Your opponent rolled Fate's Dice. It showed a {#RESULT}.",
 	
-	"draftYourTurn": "Pick a card.",
-	"draftOpponentsTurn": "Your opponent is picking a card.",
-	"draftPackNumber": "Pack {#CURRENT}/{#TOTAL}",
-	"draftAmountTaken": "{#CURRENT}/{#TOTAL} Taken",
-	"draftFinished": "Draft finished. You can start the game now.",
-	"draftStartGame": "Start Game",
+	"draft": {
+		"yourTurn": "Pick a card.",
+		"opponentsTurn": "Your opponent is picking a card.",
+		"packNumber": "Pack {#CURRENT}/{#TOTAL}",
+		"amountTaken": "{#CURRENT}/{#TOTAL} Taken",
+		"finished": "Draft finished. You can start the game now.",
+		"startGame": "Start Game",
+		"deckName": "Draft Deck",
+		"yourDeck": "You",
+		"opponentDeck": "Opponent"
+	},
 	
 	"settings": {
 		"title": "Settings",
