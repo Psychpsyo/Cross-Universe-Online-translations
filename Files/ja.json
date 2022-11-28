@@ -70,9 +70,6 @@
 	"cardListExile0": "相手の隔離：",
 	"cardListExile1": "自分の隔離：",
 	
-	"fatesDiceYou": "自分の「運命のサイコロ」：{#RESULT}",
-	"fatesDiceOpponent": "相手の「運命のサイコロ」：{#RESULT}",
-	
 	"draft": {
 		"yourTurn": "",
 		"opponentsTurn": "",
@@ -90,7 +87,12 @@
 		
 		"general": "",
 		"language": "言語：",
-		"languageIncomplete": "",
+		"languageWarnings": {
+			"incomplete": "",
+			"noRules": "",
+			"noCards": "",
+			"partialCards": ""
+		},
 		"partnerChoice": "",
 		"autoClosePreview": "",
 		
@@ -103,6 +105,7 @@
 		"disableCardBacks": "",
 		
 		"hotkeys": "",
+		"resetHotkeys": "",
 		"pressKey": "",
 		"keyCtrl": "",
 		"keyShift": "",
@@ -345,7 +348,9 @@
 	
 	"cardActions": {
 		"I00040": {
-			"roll": "振る"
+			"roll": "振る",
+			"yourRoll": "自分の「運命のサイコロ」：{#RESULT}",
+			"opponentRoll": "相手の「運命のサイコロ」：{#RESULT}"
 		}
 	}
 }

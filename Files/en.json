@@ -70,9 +70,6 @@
 	"cardListExile0": "Opponent's Exile Zone:",
 	"cardListExile1": "Your Exile Zone:",
 	
-	"fatesDiceYou": "You rolled Fate's Dice. It showed a {#RESULT}.",
-	"fatesDiceOpponent": "Your opponent rolled Fate's Dice. It showed a {#RESULT}.",
-	
 	"draft": {
 		"yourTurn": "Pick a card.",
 		"opponentsTurn": "Your opponent is picking a card.",
@@ -90,7 +87,12 @@
 		
 		"general": "General",
 		"language": "Language:",
-		"languageIncomplete": "This language might be incomplete. Click here to help out.",
+		"languageWarnings": {
+			"incomplete": "This language might be incomplete. Click here to help out.",
+			"noRules": "The game rules are not available in this language.",
+			"noCards": "The cards are not available in this language. English cards will be shown.",
+			"partialCards": "Not all cards are available in this language. Missing cards will be in English."
+		},
 		"partnerChoice": "Always give Partner Choice",
 		"autoClosePreview": "Close Card Preview When Clicking off of It",
 		
@@ -103,6 +105,7 @@
 		"disableCardBacks": "Disable Opponent Card Backs",
 		
 		"hotkeys": "Hotkeys",
+		"resetHotkeys": "Reset Hotkeys",
 		"pressKey": "Press Key",
 		"keyCtrl": "Ctrl",
 		"keyShift": "Shift",
@@ -345,7 +348,9 @@
 	
 	"cardActions": {
 		"I00040": {
-			"roll": "Roll"
+			"roll": "Roll",
+			"yourRoll": "You rolled Fate's Dice. It showed a {#RESULT}.",
+			"opponentRoll": "Your opponent rolled Fate's Dice. It showed a {#RESULT}."
 		}
 	}
 }
