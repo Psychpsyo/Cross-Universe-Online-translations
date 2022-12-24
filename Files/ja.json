@@ -1,5 +1,5 @@
 {
-	"enterRoomcode": "ルームコード：",
+	"enterRoomcode": "対戦ID：",
 	"connectToRoom": "接続",
 	"waitingForOpponent": "承認待ち",
 	"cancelWaiting": "キャンセル",
@@ -41,7 +41,7 @@
 	"life": "Lp",
 	"mana": "魔力",
 	
-	"roomCode": "ルームコード： ",
+	"roomCode": "対戦ID： ",
 	"roomCodeShow": "表示する",
 	"roomCodeHide": "非表示にする",
 	"roomCodeHidden": "非表示中",
