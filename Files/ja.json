@@ -244,7 +244,7 @@
 	
 	"searchSearch": "サーチ",
 	"searchCardName": "カード名：",
-	"searchCardId": "",
+	"searchCardId": "カードID",
 	"searchAttack": "攻撃力：",
 	"searchDefense": "防御力：",
 	"searchTypes": "タイプ：",
@@ -260,7 +260,7 @@
 	"searchSortByLevel": "レベル",
 	"searchSortByName": "名前",
 	"searchSortByReleaseDate": "",
-	"searchSortByCardId": "",
+	"searchSortByCardId": "カードID",
 	"searchSortByAttack": "攻撃力",
 	"searchSortByDefense": "防御力",
 	
