@@ -70,6 +70,15 @@
 	"cardListExile0": "Opponent's Exile Zone:",
 	"cardListExile1": "Your Exile Zone:",
 	
+	"fieldLabels": {
+		"unitZone": "Unit\nZone",
+		"spellItemZone": "Spell\n&\nItem\nZone",
+		"partnerZone": "Partner\nZone",
+		"exileZone": "Exile\nZone",
+		"discardPile": "Discard\nPile",
+		"deck": "Deck"
+	},
+	
 	"draft": {
 		"yourTurn": "Pick a card.",
 		"opponentsTurn": "Your opponent is picking a card.",
@@ -78,8 +87,8 @@
 		"finished": "Draft finished. You can start the game now.",
 		"startGame": "Start Game",
 		"deckName": "Draft Deck",
-		"yourDeck": "You",
-		"opponentDeck": "Opponent"
+		"yourDeck": "Your Deck",
+		"opponentDeck": "Opponent Deck"
 	},
 	
 	"settings": {
@@ -120,7 +129,7 @@
 		"destroyGrabbedToken": "Destroy Grabbed Token:",
 		"writeChatMessage": "Write Chat Message:",
 		"drawCard": "Draw Card:",
-		"shuffleDeck": "Shuffle Deck:",
+		"shuffleDeck": "Shuffle Your Deck:",
 		"showDeckTop": "View Top Card of Deck:",
 		"previewHandCard": "Preview Hand Cards:",
 		
@@ -204,7 +213,7 @@
 			"NumpadDivide": "Num/",
 			"NumpadEqual": "Num=",
 			"NumpadComma": "Num,",
-			"NumpadDecimal": "Num,",
+			"NumpadDecimal": "Num.",
 			
 			"F1": "F1",
 			"F2": "F2",
@@ -233,55 +242,91 @@
 		}
 	},
 	
-	"searchUnits": "Units",
-	"searchTokens": "Tokens",
-	"searchStandardSpells": "Standard Spells",
-	"searchContinuousSpells": "Continuous Spells",
-	"searchEnchantSpells": "Enchant Spells",
-	"searchStandardItems": "Standard Items",
-	"searchContinuousItems": "Continuous Items",
-	"searchEquipableItems": "Equipable Items",
-	
-	"searchSearch": "Search",
-	"searchCardName": "Card Name:",
-	"searchCardId": "Card ID:",
-	"searchAttack": "Attack:",
-	"searchDefense": "Defense:",
-	"searchTypes": "Types:",
-	"searchCharacters": "Characters:",
-	"searchDeckLimit": "Deck Limit:",
-	"searchDeckLimitAny": "any",
-	"searchDeckLimitThree": "3",
-	"searchDeckLimitLess": "less",
-	"searchDeckLimitMore": "more",
-	"searchDeckLimitInfinite": "∞",
-	"searchSortBy": "Sort by",
-	"searchSortByRelevancy": "relevancy",
-	"searchSortByLevel": "level",
-	"searchSortByName": "name",
-	"searchSortByReleaseDate": "release date",
-	"searchSortByCardId": "card ID",
-	"searchSortByAttack": "attack",
-	"searchSortByDefense": "defense",
-	
-	"deckMakerDeck": "Deck",
-	
-	"cardInfoReleased": "Released:",
-	"cardInfoIllustrator": "Illustrator:",
-	"cardInfoIdea": "Idea:",
-	"cardInfoMentionedCards": "Mentioned Cards:",
-	"cardInfoMentionedOn": "Mentioned On:",
-	"cardInfoVisibleCards": "Visible Cards:",
-	"cardInfoVisibleOn": "Appears On:",
-	"cardInfoToDeck": "Add Card To Deck",
-	
-	"deckMakerDeckName": "Deck Name:",
-	"deckMakerDescription": "Description:",
-	"deckMakerPartner": "Partner:",
-	
-	"deckMakerUnitTotal": "Units:",
-	"deckMakerSpellTotal": "Spells:",
-	"deckMakerItemTotal": "Items:",
+	"deckMaker": {
+		"deck": "Deck",
+		"search": "Search",
+		
+		"units": "Units",
+		"tokens": "Tokens",
+		"standardSpells": "Standard Spells",
+		"continuousSpells": "Continuous Spells",
+		"enchantSpells": "Enchant Spells",
+		"standardItems": "Standard Items",
+		"continuousItems": "Continuous Items",
+		"equipableItems": "Equipable Items",
+		
+		"searchMenu": {
+			"search": "Search",
+			"cardName": "Card Name:",
+			"cardId": "Card ID:",
+			"attack": "Attack:",
+			"defense": "Defense:",
+			"textBox": "Text Box:",
+			"types": "Types:",
+			"characters": "Characters:",
+			"deckLimit": "Deck Limit:",
+			"deckLimitAny": "any",
+			"deckLimitThree": "3",
+			"deckLimitLess": "less",
+			"deckLimitMore": "more",
+			"deckLimitInfinite": "∞",
+			"sortBy": "Sort by",
+			"sortByRelevancy": "relevancy",
+			"sortByLevel": "level",
+			"sortByName": "name",
+			"sortByReleaseDate": "release date",
+			"sortByCardId": "card ID",
+			"sortByAttack": "attack",
+			"sortByDefense": "defense"
+		},
+		
+		"cardInfo": {
+			"released": "Released:",
+			"illustrator": "Illustrator:",
+			"idea": "Idea:",
+			"mentionedCards": "Mentioned Cards:",
+			"mentionedOn": "Mentioned On:",
+			"visibleCards": "Visible Cards:",
+			"visibleOn": "Appears On:",
+			"toDeck": "Add Card To Deck"
+		},
+		
+		"deckMenu": {
+			"title": "Deck Overview",
+			"cardListTitle": "Card List",
+			"detailsTitle": "Details",
+			"recentCardsTitle": "Recent Cards",
+			
+			"name": "Deck Name:",
+			"description": "Description:",
+			"partner": "Partner:",
+			
+			"cardTotal": "Card Total:",
+			"unitTotal": "Units:",
+			"spellTotal": "Spells:",
+			"itemTotal": "Items:",
+			
+			"warnings": {
+				"title": "Warnings:",
+				"cardMinimum": "A deck must have at least 30 cards.",
+				"cardMaximum": "A deck must have at most 50 cards.",
+				"needsUnit": "A deck needs to have a unit.",
+				"noTokens": "A deck may not contain any Tokens.",
+				"noPartner": "To export as .deck, you must select a partner."
+			},
+			
+			"levelDistribution": "Level Distribution:",
+			"options": "Options",
+			"exportDeck": "Export (.deck)",
+			"importDeck": "Import Deck",
+			"drawStartingHand": "Draw Starting Hand"
+		},
+		
+		"startingHandGenerator": {
+			"title": "Starting Hand Generator",
+			"redraw": "Redraw"
+		}
+	},
 	
 	"cardDetailsAttack": "Attack: ",
 	"cardDetailsDefense": "Defense: ",
@@ -302,8 +347,10 @@
 	"fastCardDetailEffect": "Fast Ability:",
 	"deployCardDetailEffect": "When Deployed:",
 	"castCardDetailEffect": "When Cast:",
+	
 	"subEffectOpeningBracket": "［",
 	"subEffectClosingBracket": "］",
+	
 	"typeSeparator": ", ",
 	"typePsychic": "Psychic",
 	"typeDragon": "Dragon",

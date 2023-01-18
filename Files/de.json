@@ -242,55 +242,91 @@
 		}
 	},
 	
-	"searchUnits": "Einheiten",
-	"searchTokens": "Tokens",
-	"searchStandardSpells": "Standard-Zauber",
-	"searchContinuousSpells": "Permanente Zauber",
-	"searchEnchantSpells": "Ausrüstbare Zauber",
-	"searchStandardItems": "Standard-Items",
-	"searchContinuousItems": "Permanente Items",
-	"searchEquipableItems": "Ausrüstbare Items",
-	
-	"searchSearch": "Suchen",
-	"searchCardName": "Kartenname:",
-	"searchCardId": "Karten-ID:",
-	"searchAttack": "Angriff:",
-	"searchDefense": "Verteidigung:",
-	"searchTypes": "Typen:",
-	"searchCharacters": "Charaktere:",
-	"searchDeckLimit": "Deck-Limit:",
-	"searchDeckLimitAny": "egal",
-	"searchDeckLimitThree": "3",
-	"searchDeckLimitLess": "weniger",
-	"searchDeckLimitMore": "mehr",
-	"searchDeckLimitInfinite": "∞",
-	"searchSortBy": "Sortiere nach",
-	"searchSortByRelevancy": "Relevanz",
-	"searchSortByLevel": "Level",
-	"searchSortByName": "Name",
-	"searchSortByReleaseDate": "Erscheinungsdatum",
-	"searchSortByCardId": "Karten-ID",
-	"searchSortByAttack": "Angriff",
-	"searchSortByDefense": "Verteidigung",
-	
-	"deckMakerDeck": "Deck",
-	
-	"cardInfoReleased": "Erschienen:",
-	"cardInfoIllustrator": "Illustrator:",
-	"cardInfoIdea": "Idee:",
-	"cardInfoMentionedCards": "Erwähnte Cards:",
-	"cardInfoMentionedOn": "Erwähnt Von:",
-	"cardInfoVisibleCards": "Sichtbare Karten:",
-	"cardInfoVisibleOn": "Sichtbar Auf:",
-	"cardInfoToDeck": "Dem Deck Hinzufügen",
-	
-	"deckMakerDeckName": "Deckname:",
-	"deckMakerDescription": "Beschreibung:",
-	"deckMakerPartner": "Partner:",
-	
-	"deckMakerUnitTotal": "Einheiten:",
-	"deckMakerSpellTotal": "Zauber:",
-	"deckMakerItemTotal": "Items:",
+	"deckMaker": {
+		"deck": "Deck",
+		"search": "Suche",
+		
+		"units": "Einheiten",
+		"tokens": "Tokens",
+		"standardSpells": "Standard-Zauber",
+		"continuousSpells": "Permanente Zauber",
+		"enchantSpells": "Ausrüstbare Zauber",
+		"standardItems": "Standard-Items",
+		"continuousItems": "Permanente Items",
+		"equipableItems": "Ausrüstbare Items",
+		
+		"searchMenu": {
+			"search": "Suchen",
+			"cardName": "Kartenname:",
+			"cardId": "Karten-ID:",
+			"attack": "Angriff:",
+			"defense": "Verteidigung:",
+			"textBox": "Textbox:",
+			"types": "Typen:",
+			"characters": "Charaktere:",
+			"deckLimit": "Deck-Limit:",
+			"deckLimitAny": "egal",
+			"deckLimitThree": "3",
+			"deckLimitLess": "weniger",
+			"deckLimitMore": "mehr",
+			"deckLimitInfinite": "∞",
+			"sortBy": "Sortiere nach",
+			"sortByRelevancy": "Relevanz",
+			"sortByLevel": "Level",
+			"sortByName": "Name",
+			"sortByReleaseDate": "Erscheinungsdatum",
+			"sortByCardId": "Karten-ID",
+			"sortByAttack": "Angriff",
+			"sortByDefense": "Verteidigung"
+		},
+		
+		"cardInfo": {
+			"released": "Erschienen:",
+			"illustrator": "Illustrator:",
+			"idea": "Idee:",
+			"mentionedCards": "Erwähnte Karten:",
+			"mentionedOn": "Erwähnt Auf:",
+			"visibleCards": "Sichtbare Karten:",
+			"visibleOn": "Sichtbar Auf:",
+			"toDeck": "Dem Deck Hinzufügen"
+		},
+		
+		"deckMenu": {
+			"title": "Deck-Übersicht",
+			"cardListTitle": "Kartenliste",
+			"detailsTitle": "Details",
+			"recentCardsTitle": "Zuletzt Benutzte Karten",
+			
+			"name": "Deckname:",
+			"description": "Beschreibung:",
+			"partner": "Partner:",
+			
+			"cardTotal": "Gesamt:",
+			"unitTotal": "Einheiten:",
+			"spellTotal": "Zauber:",
+			"itemTotal": "Items:",
+			
+			"warnings": {
+				"title": "Warnings:",
+				"cardMinimum": "A deck must have at least 30 cards.",
+				"cardMaximum": "A deck must have at most 50 cards.",
+				"needsUnit": "A deck needs to have a unit.",
+				"noTokens": "A deck may not contain any Tokens.",
+				"noPartner": "To export as .deck, you must select a partner."
+			},
+			
+			"levelDistribution": "Leve-Verteilung:",
+			"options": "Optionen",
+			"exportDeck": "Exportieren (.deck)",
+			"importDeck": "Deck Importieren",
+			"drawStartingHand": "Starthand ziehen"
+		},
+		
+		"startingHandGenerator": {
+			"title": "Starthandgenerator",
+			"redraw": "Erneut Ziehen"
+		}
+	},
 	
 	"cardDetailsAttack": "Angriff: ",
 	"cardDetailsDefense": "Verteidigung: ",
@@ -311,8 +347,10 @@
 	"fastCardDetailEffect": "Schnelle Fähigkeit:",
 	"deployCardDetailEffect": "Beim Einsetzen:",
 	"castCardDetailEffect": "Beim Einsetzen:",
+	
 	"subEffectOpeningBracket": "［",
 	"subEffectClosingBracket": "］",
+	
 	"typeSeparator": ", ",
 	"typePsychic": "Psychic",
 	"typeDragon": "Dragon",

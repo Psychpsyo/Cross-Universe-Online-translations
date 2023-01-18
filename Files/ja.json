@@ -70,6 +70,15 @@
 	"cardListExile0": "相手の隔離：",
 	"cardListExile1": "自分の隔離：",
 	
+	"fieldLabels": {
+		"unitZone": "ユニット\nゾーン",
+		"spellItemZone": "スペル\n＆\nアイテム\nゾーン",
+		"partnerZone": "パートナー\nゾーン",
+		"exileZone": "隔離",
+		"discardPile": "捨て山",
+		"deck": "デッキ"
+	},
+	
 	"draft": {
 		"yourTurn": "",
 		"opponentsTurn": "",
@@ -77,9 +86,9 @@
 		"amountTaken": "",
 		"finished": "",
 		"startGame": "",
-		"deckName": "",
-		"yourDeck": "自分",
-		"opponentDeck": "相手"
+		"deckName": "ドラフトデッキ",
+		"yourDeck": "自分のデッキ",
+		"opponentDeck": "相手のデッキ"
 	},
 	
 	"settings": {
@@ -107,9 +116,9 @@
 		"hotkeys": "",
 		"resetHotkeys": "",
 		"pressKey": "",
-		"keyCtrl": "",
-		"keyShift": "",
-		"keyAlt": "",
+		"keyCtrl": "Ctrl",
+		"keyShift": "Shift",
+		"keyAlt": "Alt",
 		"showYourDiscardPile": "",
 		"showOpponentDiscardPile": "",
 		"showYourExileZone": "",
@@ -204,7 +213,7 @@
 			"NumpadDivide": "Num/",
 			"NumpadEqual": "Num=",
 			"NumpadComma": "Num,",
-			"NumpadDecimal": "Num,",
+			"NumpadDecimal": "Num.",
 			
 			"F1": "F1",
 			"F2": "F2",
@@ -233,55 +242,91 @@
 		}
 	},
 	
-	"searchUnits": "ユニット",
-	"searchTokens": "トークン",
-	"searchStandardSpells": "通常スペル",
-	"searchContinuousSpells": "永続スペル",
-	"searchEnchantSpells": "付与スペル",
-	"searchStandardItems": "通常アイテム",
-	"searchContinuousItems": "永続アイテム",
-	"searchEquipableItems": "装備アイテム",
-	
-	"searchSearch": "サーチ",
-	"searchCardName": "カード名：",
-	"searchCardId": "カードID",
-	"searchAttack": "攻撃力：",
-	"searchDefense": "防御力：",
-	"searchTypes": "タイプ：",
-	"searchCharacters": "",
-	"searchDeckLimit": "",
-	"searchDeckLimitAny": "",
-	"searchDeckLimitThree": "",
-	"searchDeckLimitLess": "",
-	"searchDeckLimitMore": "",
-	"searchDeckLimitInfinite": "",
-	"searchSortBy": "",
-	"searchSortByRelevancy": "",
-	"searchSortByLevel": "レベル",
-	"searchSortByName": "名前",
-	"searchSortByReleaseDate": "",
-	"searchSortByCardId": "カードID",
-	"searchSortByAttack": "攻撃力",
-	"searchSortByDefense": "防御力",
-	
-	"deckMakerDeck": "デッキ",
-	
-	"cardInfoReleased": "",
-	"cardInfoIllustrator": "イラストレイター：",
-	"cardInfoIdea": "原案：",
-	"cardInfoMentionedCards": "",
-	"cardInfoMentionedOn": "",
-	"cardInfoVisibleCards": "",
-	"cardInfoVisibleOn": "",
-	"cardInfoToDeck": "",
-	
-	"deckMakerDeckName": "デッキ名：",
-	"deckMakerDescription": "説明文：",
-	"deckMakerPartner": "パートナー：",
-	
-	"deckMakerUnitTotal": "ユニット：",
-	"deckMakerSpellTotal": "スペル：",
-	"deckMakerItemTotal": "アイテム：",
+	"deckMaker": {
+		"deck": "デッキ",
+		"search": "サーチ",
+		
+		"units": "ユニット",
+		"tokens": "トークン",
+		"standardSpells": "通常スペル",
+		"continuousSpells": "永続スペル",
+		"enchantSpells": "付与スペル",
+		"standardItems": "通常アイテム",
+		"continuousItems": "永続アイテム",
+		"equipableItems": "装備アイテム",
+		
+		"searchMenu": {
+			"search": "サーチ",
+			"cardName": "カード名：",
+			"cardId": "カードID：",
+			"attack": "攻撃力：",
+			"defense": "防御力：",
+			"textBox": "",
+			"types": "タイプ：",
+			"characters": "",
+			"deckLimit": "",
+			"deckLimitAny": "",
+			"deckLimitThree": "3",
+			"deckLimitLess": "",
+			"deckLimitMore": "",
+			"deckLimitInfinite": "∞",
+			"sortBy": "",
+			"sortByRelevancy": "",
+			"sortByLevel": "レベル",
+			"sortByName": "名前",
+			"sortByReleaseDate": "",
+			"sortByCardId": "カードID",
+			"sortByAttack": "攻撃力",
+			"sortByDefense": "防御力"
+		},
+		
+		"cardInfo": {
+			"released": "",
+			"illustrator": "イラストレイター：",
+			"idea": "原案：",
+			"mentionedCards": "",
+			"mentionedOn": "",
+			"visibleCards": "",
+			"visibleOn": "",
+			"toDeck": ""
+		},
+		
+		"deckMenu": {
+			"title": "",
+			"cardListTitle": "",
+			"detailsTitle": "",
+			"recentCardsTitle": "",
+			
+			"name": "デッキ名：",
+			"description": "説明文：",
+			"partner": "パートナー：",
+			
+			"cardTotal": "",
+			"unitTotal": "ユニット：",
+			"spellTotal": "スペル：",
+			"itemTotal": "アイテム：",
+			
+			"warnings": {
+				"title": "",
+				"cardMinimum": "",
+				"cardMaximum": "",
+				"needsUnit": "",
+				"noTokens": "",
+				"noPartner": ""
+			},
+			
+			"levelDistribution": "",
+			"options": "",
+			"exportDeck": "",
+			"importDeck": "",
+			"drawStartingHand": ""
+		},
+		
+		"startingHandGenerator": {
+			"title": "",
+			"redraw": ""
+		}
+	},
 	
 	"cardDetailsAttack": "攻撃力：",
 	"cardDetailsDefense": "防御力：",
@@ -302,8 +347,10 @@
 	"fastCardDetailEffect": "即時起動能力：",
 	"deployCardDetailEffect": "使用時に：",
 	"castCardDetailEffect": "詠唱時に：",
+	
 	"subEffectOpeningBracket": "〔",
 	"subEffectClosingBracket": "〕",
+	
 	"typeSeparator": ",",
 	"typePsychic": "PSI",
 	"typeDragon": "ドラゴン",
