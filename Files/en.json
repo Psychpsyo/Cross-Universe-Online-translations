@@ -4,7 +4,7 @@
 	"waitingForOpponent": "Waiting for Opponent...",
 	"cancelWaiting": "Cancel",
 	"rulesButton": "Game Rules",
-	"rulesLink": "/rules.html",
+	"rulesLink": "https://crossuniverse.net/rules",
 	"unofficialNotice": "This site is an unofficial, fan-made implementation of Cross Universe. Visit the official page at <a href=\"https://www.crossuniverse.jp\">crossuniverse.jp</a>!",
 	
 	"gamemode": "Gamemode:",

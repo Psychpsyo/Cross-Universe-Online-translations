@@ -4,7 +4,7 @@
 	"waitingForOpponent": "Warte auf den Gegner...",
 	"cancelWaiting": "Abbrechen",
 	"rulesButton": "Spielregeln",
-	"rulesLink": "/rules.html",
+	"rulesLink": "https://crossuniverse.net/rules",
 	"unofficialNotice": "Diese Seite ist eine Fan-gemachte, unoffizielle Cross Universe Implementation. Die offizielle Seite findest du unter <a href=\"https://www.crossuniverse.jp\">crossuniverse.jp</a>!",
 	
 	"gamemode": "Spielmodus:",
