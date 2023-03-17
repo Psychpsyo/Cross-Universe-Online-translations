@@ -1,6 +1,6 @@
 # Cross Universe Online Translations
 
-This repo has the translation files (English & Japanese) for my site, [Cross Universe Online](https://crossuniverse.psychpsyo.com/).  
+This repo has the translation files (English & Japanese) for my site, [Cross Universe Online Battle](https://battle.crossuniverse.net/).  
 The English file (en.json) is in this case the original and will always be complete.  
 The Japanese file (ja.json) is still missing some things. (The keys are in there but their value is just `""`.)
 
