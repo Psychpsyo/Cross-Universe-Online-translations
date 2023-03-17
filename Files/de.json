@@ -14,7 +14,7 @@
 	},
 	
 	"settingsButton": "Einstellungen",
-	"deckCreatorButton": "Deck-Editor Öffnen",
+	"deckCreatorButton": "Deck Editor Öffnen",
 	
 	"infoYou": "Du",
 	"infoOpponent": "Gegner",
@@ -112,6 +112,12 @@
 		"preferences": "Präferenzen",
 		"fieldLabels": "Feldbeschriftung Zeigen",
 		"disableCardBacks": "Gegnerische Kartenrücken Deaktivieren",
+		"theme": "Theme:",
+		"themes": {
+			"default": "Standard",
+			"worldTree": "Der World Tree",
+			"deepSea": "Tiefsee"
+		},
 		
 		"hotkeys": "Hotkeys",
 		"resetHotkeys": "Hotkeys Zurücksetzen",
@@ -243,6 +249,7 @@
 	},
 	
 	"deckMaker": {
+		"title": "Deck Editor",
 		"deck": "Deck",
 		"search": "Suche",
 		

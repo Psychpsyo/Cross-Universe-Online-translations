@@ -112,6 +112,12 @@
 		"preferences": "Preferences",
 		"fieldLabels": "Show Field Labels",
 		"disableCardBacks": "Disable Opponent Card Backs",
+		"theme": "Theme:",
+		"themes": {
+			"default": "Default",
+			"worldTree": "The World Tree",
+			"deepSea": "Deep Sea"
+		},
 		
 		"hotkeys": "Hotkeys",
 		"resetHotkeys": "Reset Hotkeys",
@@ -243,6 +249,7 @@
 	},
 	
 	"deckMaker": {
+		"title": "Deck Creator",
 		"deck": "Deck",
 		"search": "Search",
 		

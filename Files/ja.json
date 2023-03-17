@@ -112,6 +112,12 @@
 		"preferences": "",
 		"fieldLabels": "",
 		"disableCardBacks": "",
+		"theme": "",
+		"themes": {
+			"default": "",
+			"worldTree": "神聖樹",
+			"deepSea": ""
+		},
 		
 		"hotkeys": "",
 		"resetHotkeys": "",
@@ -243,6 +249,7 @@
 	},
 	
 	"deckMaker": {
+		"title": "",
 		"deck": "デッキ",
 		"search": "サーチ",
 		
