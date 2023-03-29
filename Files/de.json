@@ -107,11 +107,14 @@
 		
 		"profile": "Profil",
 		"username": "Dein Nutzername:",
+		"usernamePlaceholder": "Kein Nutzername gewählt.",
 		"cardBackLink": "Link für einen Kartenrücken:",
+		"cardBackLinkPlaceholder": "Kein Kartenrücken gewählt.",
 		
-		"preferences": "Präferenzen",
+		"customization": "Display & Themes",
 		"fieldLabels": "Feldbeschriftung Zeigen",
 		"disableCardBacks": "Gegnerische Kartenrücken Deaktivieren",
+		"leftField": "Feld links auf dem Bildschirm Platzieren",
 		"theme": "Theme:",
 		"themes": {
 			"default": "Standard",

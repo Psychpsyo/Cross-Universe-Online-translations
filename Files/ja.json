@@ -107,11 +107,14 @@
 		
 		"profile": "",
 		"username": "",
+		"usernamePlaceholder": "",
 		"cardBackLink": "",
+		"cardBackLinkPlaceholder": "",
 		
-		"preferences": "",
+		"customization": "",
 		"fieldLabels": "",
 		"disableCardBacks": "",
+		"leftField": "",
 		"theme": "",
 		"themes": {
 			"default": "",

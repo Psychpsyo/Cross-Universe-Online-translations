@@ -107,11 +107,14 @@
 		
 		"profile": "Profile",
 		"username": "Your Username:",
+		"usernamePlaceholder": "No username set.",
 		"cardBackLink": "Custom Card Back Link:",
+		"cardBackLinkPlaceholder": "No card back set.",
 		
-		"preferences": "Preferences",
+		"customization": "Customization",
 		"fieldLabels": "Show Field Labels",
 		"disableCardBacks": "Disable Opponent Card Backs",
+		"leftField": "Place Field on The Left Side of your Screen",
 		"theme": "Theme:",
 		"themes": {
 			"default": "Default",
