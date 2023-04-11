@@ -287,7 +287,7 @@
 		"deck": "Deck",
 		"search": "Search",
 		
-		"seachResults": "Search Results",
+		"searchResults": "Search Results",
 		"unitTokenColumn": "Unit/Token Column",
 		"spellColumn": "Spell Column",
 		"itemColumn": "Item Column",
@@ -334,6 +334,8 @@
 		},
 		
 		"cardInfo": {
+			"title": "Card Info",
+			"generalSection": "General Info",
 			"released": "Released:",
 			"illustrator": "Illustrator:",
 			"idea": "Idea:",
@@ -351,8 +353,9 @@
 			"recentCardsTitle": "Recent Cards",
 			
 			"name": "Deck Name:",
+			"namePlaceholder": "New Deck",
 			"description": "Description:",
-			"partner": "Partner:",
+			"partner": "Partner Card:",
 			
 			"cardTotal": "Card Total:",
 			"unitTotal": "Units:",

@@ -287,7 +287,7 @@
 		"deck": "デッキ",
 		"search": "サーチ",
 		
-		"seachResults": "",
+		"searchResults": "",
 		"unitTokenColumn": "",
 		"spellColumn": "",
 		"itemColumn": "",
@@ -334,6 +334,8 @@
 		},
 		
 		"cardInfo": {
+			"title": "",
+			"generalSection": "",
 			"released": "",
 			"illustrator": "イラストレイター：",
 			"idea": "原案：",
@@ -351,8 +353,9 @@
 			"recentCardsTitle": "",
 			
 			"name": "デッキ名：",
+			"namePlaceholder": "",
 			"description": "説明文：",
-			"partner": "パートナー：",
+			"partner": "パートナーカード：",
 			
 			"cardTotal": "",
 			"unitTotal": "ユニット：",
